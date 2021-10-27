@@ -53,7 +53,7 @@
                 },
                 {
                     "type": "shell",
-                    "commands": [ 
+                    "commands": [
                         "cp -p /usr/share/automake-*/config.{sub,guess} .",
                         "cp -p /usr/share/automake-*/config.{sub,guess} libmad-0.15.1b/"
                     ]
@@ -78,8 +78,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/kalibari/audok/archive/refs/tags/v0.8.7.tar.gz",
-                    "sha512": "074dcc22b680b7b4c4986f92086022de1dd95cc6e699ffe557301becf5f1de913ebcc2dca2a5a3428291fc276eb77de908c73fa8c276679aa4d88d61f8c5e466"
+                    "url": "https://github.com/kalibari/audok/archive/refs/tags/v0.8.9.tar.gz",
+                    "sha512": "6b56639747892838849206acbf8e4bd940d75b866e0ab09699eb98ddd4f4251edd7bc2a00bafca771e78bf50f67bef97bf30e73b4699522b6c6dfc157cb80a4e"
                 },
                 {
                     "type": "file",
