@@ -33,7 +33,7 @@
             ],
             "sources": [{
               "type": "archive",
-              "url": "https://www.ffmpeg.org/releases/ffmpeg-4.4-1.tar.gz",
+              "url": "https://www.ffmpeg.org/releases/ffmpeg-4.4.1.tar.gz",
               "sha512": "010db909d0769080b222b13a1b2d7fde5b0b093ce4691539cfcc3b46444c80be98112fae828d894bb3c8f097600d5e06bd1b41970ec87e7c1424ba637738b797"
             }],
             "cleanup": ["/share/ffmpeg/examples"]
