@@ -78,8 +78,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/kalibari/audok/archive/refs/tags/v1.0.0.tar.gz",
-                    "sha512": "cc235886135ea6bb590d95136c7cf9d821b670bb336830dd8d102b2baeed42ea123bd097a690223eafbcecba67c38f6a73f7759e7e06b314f6960e2c80f55c1f"
+                    "url": "https://github.com/kalibari/audok/archive/refs/tags/v1.0.1.tar.gz",
+                    "sha512": "e598e3b12b39db541a70a70aaf3dd8b545be87b7e47272e382e5b377de56b814a9db7ea68c868edbdb8fd66818aaf0a7be01609afb5a3cf33949f949d4282124"
                 },
                 {
                     "type": "file",
