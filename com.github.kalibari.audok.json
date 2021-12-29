@@ -67,8 +67,8 @@
             "make-install-args": ["PREFIX=/app"],
             "sources": [{
               "type": "archive",
-              "url": "https://github.com/ytdl-org/youtube-dl/releases/download/2021.06.06/youtube-dl-2021.06.06.tar.gz",
-              "sha512": "7b4d453723d03c3fde46451277d5c44be01469ed1b414ce94e782d6228c132c982835805207222862d0d7b8ba162157196f976400fd15cea7ea513e3595aeea3"
+              "url": "https://github.com/ytdl-org/youtube-dl/releases/download/2021.12.17/youtube-dl-2021.12.17.tar.gz",
+              "sha512": "bfc8280703b08f66e1108e9ebd9ab4689f064ac7cef03bd3d1fd2bc64928570e4376e389c9bc188eafdbcd74444cfc8aeccc83ee362ad4f478910efef3573ddb"
             }]
         },
         {
@@ -78,8 +78,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/kalibari/audok/archive/refs/tags/v1.0.1.tar.gz",
-                    "sha512": "e598e3b12b39db541a70a70aaf3dd8b545be87b7e47272e382e5b377de56b814a9db7ea68c868edbdb8fd66818aaf0a7be01609afb5a3cf33949f949d4282124"
+                    "url": "https://github.com/kalibari/audok/archive/refs/tags/v1.0.3.tar.gz",
+                    "sha512": "cb45b380efa30a3fd43a9efbd994e16681f745eed9d75f3f6e3a1eb7030b24e90590e6862021edd0b82d1c3aceb2fd3bd9f710af1b7ecb7fff3562960498e2a9"
                 },
                 {
                     "type": "file",
