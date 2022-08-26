@@ -31,8 +31,8 @@
             ],
             "sources": [{
               "type": "archive",
-              "url": "https://www.ffmpeg.org/releases/ffmpeg-5.0.1.tar.gz",
-              "sha512": "da27a2b7ccac944b28691ee74580cdfb13532130e7372960be3472879f422f93cf4d290d8577e67b3ff1e9d73972a8d54274468df93e79255299e9f01b49c4ee"
+              "url": "https://www.ffmpeg.org/releases/ffmpeg-5.1.tar.gz",
+              "sha512": "953cd4e0a7f5c99800f3a85b8dcdda76761e1d9692b5fc7013f1555fed5b6aae22316ad3dcb1af41fc53c005764aeceee08f688b6aaa3ecb4d999854e8489fba"
             }],
             "cleanup": ["/share/ffmpeg/examples"]
         },
@@ -76,8 +76,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/kalibari/audok/archive/refs/tags/v1.0.19.tar.gz",
-                    "sha512": "e1d4207d644ce7c84d8d7a0c07e516ab318f2f4d32d5d7a69ec2c144fe3af96f63a11c6c8cae7148dc3f6233c8ec437b18f7b2771f2fe45515b3b5585da49441"
+                    "url": "https://github.com/kalibari/audok/archive/refs/tags/v1.0.20.tar.gz",
+                    "sha512": "1fd5c981ed6b90b7a4be64257abc8d32607957d0a7c9b93c625e06d50a4efcb4b9b198f99be45006470a1d332c833fe57f9712fa8d4609578bfe8e16b4c6c43e"
                 },
                 {
                     "type": "file",

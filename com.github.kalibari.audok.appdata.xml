@@ -3,7 +3,7 @@
   <id>com.github.kalibari.audok</id>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0</project_license>
-  <name>audok</name>
+  <name>Audok</name>
   <summary>A free, open source music player</summary>
   <launchable type="desktop-id">com.github.kalibari.audok.desktop</launchable>
   <translation type="gettext">audok</translation>
@@ -24,7 +24,7 @@
     </ul>
   </description>
   <releases>
-    <release date="2022-05-26" version="1.0.19">
+    <release date="2022-08-26" version="1.0.20">
       <description>
         <p>
         This release contains the following changes:
