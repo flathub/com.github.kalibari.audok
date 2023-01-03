@@ -2,7 +2,7 @@
     "id" : "com.github.kalibari.audok",
     "runtime" : "org.gnome.Platform",
     "sdk": "org.gnome.Sdk",
-    "runtime-version" : "42",
+    "runtime-version" : "43",
     "command" : "audok",
     "finish-args" : [
         "--device=dri",
@@ -31,8 +31,8 @@
             ],
             "sources": [{
               "type": "archive",
-              "url": "https://www.ffmpeg.org/releases/ffmpeg-5.1.tar.gz",
-              "sha512": "953cd4e0a7f5c99800f3a85b8dcdda76761e1d9692b5fc7013f1555fed5b6aae22316ad3dcb1af41fc53c005764aeceee08f688b6aaa3ecb4d999854e8489fba"
+              "url": "https://www.ffmpeg.org/releases/ffmpeg-5.1.2.tar.gz",
+              "sha512": "18dd351d9a2877d2518f7dc1c8a8a7d1afb199f5129876042532adb58ab29b734af268e02b8eb37d111dbfb0f5f51808109e634ab345164b3b9e970ad39de6c8"
             }],
             "cleanup": ["/share/ffmpeg/examples"]
         },
@@ -76,8 +76,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/kalibari/audok/archive/refs/tags/v1.0.20.tar.gz",
-                    "sha512": "1fd5c981ed6b90b7a4be64257abc8d32607957d0a7c9b93c625e06d50a4efcb4b9b198f99be45006470a1d332c833fe57f9712fa8d4609578bfe8e16b4c6c43e"
+                    "url": "https://github.com/kalibari/audok/archive/refs/tags/v1.0.21.tar.gz",
+                    "sha512": "cf738814192bb10c67b588a8986f94e2e1a43bb2519b987f21fa46bdb7700809f1978bb78746c08d08c858e66cbd6d362fd8867bdf093917c11e3e5eeb054bf0"
                 },
                 {
                     "type": "file",
