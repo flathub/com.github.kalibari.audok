@@ -59,15 +59,24 @@
             ]
         },
         {
-            "name": "youtube-dl",
+            "name": "yt-dlp",
             "no-autogen": true,
-            "no-make-install": false,
-            "make-install-args": ["PREFIX=/app"],
-            "sources": [{
-              "type": "archive",
-              "url": "https://github.com/ytdl-org/youtube-dl/releases/download/2021.12.17/youtube-dl-2021.12.17.tar.gz",
-              "sha512": "bfc8280703b08f66e1108e9ebd9ab4689f064ac7cef03bd3d1fd2bc64928570e4376e389c9bc188eafdbcd74444cfc8aeccc83ee362ad4f478910efef3573ddb"
-            }]
+            "no-make-install": true,
+            "make-args": ["yt-dlp", "PYTHON=/usr/bin/python3"],
+            "post-install": ["install yt-dlp /app/bin"],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/yt-dlp/yt-dlp/releases/download/2023.07.06/yt-dlp.tar.gz",
+                    "sha512": "f9f276ccd01293d27a749575653449d73e13896c175a51f3687b2f6d1c6b97154f6c9fb2868f0c37a6e94cb692e223c7c595e741c5b2db82d2b9e1d0b2f8958d",
+                    "x-checker-data": {
+                        "type": "json",
+                        "url": "https://api.github.com/repos/yt-dlp/yt-dlp/tags",
+                        "version-query": "[.[].name | select(. != \"nightly\")] | sort[-1]",
+                        "url-query": "\"https://github.com/yt-dlp/yt-dlp/releases/download/\" + $version + \"/yt-dlp.tar.gz\""
+                    }
+                }
+            ]
         },
         {
             "name" : "audok",
@@ -76,8 +85,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/kalibari/audok/archive/refs/tags/v1.0.22.tar.gz",
-                    "sha512": "7fae2625e1cf98cd7f3d6735eb99b7fc3b48b92223daa63f7c704fb633b4407990471041e0c2fd94e76c5fe6283b05ad994f74d3688a69b701d95dcd6202b8c9"
+                    "url": "https://github.com/kalibari/audok/archive/refs/tags/v1.0.23.tar.gz",
+                    "sha512": "397d3438bee3e77f91bf73117394aa0152c7946a113ff021a34aa6591b55e04b201e43c2730a88d341d25f5e7713acbf624a24207195b593e48599addbfe9281"
                 },
                 {
                     "type": "file",
