@@ -1,10 +1,10 @@
 {
-    "id" : "com.github.kalibari.audok",
-    "runtime" : "org.gnome.Platform",
+    "id": "com.github.kalibari.audok",
+    "runtime": "org.gnome.Platform",
     "sdk": "org.gnome.Sdk",
-    "runtime-version" : "44",
-    "command" : "audok",
-    "finish-args" : [
+    "runtime-version": "44",
+    "command": "audok",
+    "finish-args": [
         "--device=dri",
         "--share=ipc",
         "--share=network",
@@ -15,39 +15,45 @@
         "--socket=pulseaudio",
         "--socket=wayland"
     ],
-    "modules" : [
+    "modules": [
         {
             "name": "ffmpeg",
             "config-opts": [
-              "--enable-rpath",
-              "--enable-gpl",
-              "--disable-static",
-              "--enable-shared",
-              "--disable-doc",
-              "--disable-alsa",
-              "--disable-libx264",
-              "--disable-libx265",
-              "--enable-libmp3lame"
+                "--enable-rpath",
+                "--enable-gpl",
+                "--disable-static",
+                "--enable-shared",
+                "--disable-doc",
+                "--disable-alsa",
+                "--disable-libx264",
+                "--disable-libx265",
+                "--enable-libmp3lame"
             ],
-            "sources": [{
-              "type": "archive",
-              "url": "https://www.ffmpeg.org/releases/ffmpeg-6.0.tar.gz",
-              "sha512": "b3214328f2792364353f38c6b46a71d4970c071d8656b20780abf0e02950167d0933eae825c09102cf8fb19fc679ac444bf1f41a448b624eaa5ea6b0f0bdf4f5"
-            }],
-            "cleanup": ["/share/ffmpeg/examples"]
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://www.ffmpeg.org/releases/ffmpeg-6.0.tar.gz",
+                    "sha512": "b3214328f2792364353f38c6b46a71d4970c071d8656b20780abf0e02950167d0933eae825c09102cf8fb19fc679ac444bf1f41a448b624eaa5ea6b0f0bdf4f5"
+                }
+            ],
+            "cleanup": [
+                "/share/ffmpeg/examples"
+            ]
         },
         {
             "name": "streamripper",
             "no-autogen": true,
             "no-make-install": false,
             "build-options": {
-                "config-opts": [ "--disable-static" ]
+                "config-opts": [
+                    "--disable-static"
+                ]
             },
             "sources": [
                 {
-                "type": "archive",
-                "url": "https://downloads.sourceforge.net/sourceforge/streamripper/streamripper-1.64.6.tar.gz",
-                "sha512": "8477086d0099f6de861f1c47112476c427073b6e8127bbaaa2dd3e7930fe9a5c6d9b2c68d4a317f1bc0b20c625e665d5c245189049d35468aa83cf51828d4428"
+                    "type": "archive",
+                    "url": "https://downloads.sourceforge.net/sourceforge/streamripper/streamripper-1.64.6.tar.gz",
+                    "sha512": "8477086d0099f6de861f1c47112476c427073b6e8127bbaaa2dd3e7930fe9a5c6d9b2c68d4a317f1bc0b20c625e665d5c245189049d35468aa83cf51828d4428"
                 },
                 {
                     "type": "shell",
@@ -62,13 +68,18 @@
             "name": "yt-dlp",
             "no-autogen": true,
             "no-make-install": true,
-            "make-args": ["yt-dlp", "PYTHON=/usr/bin/python3"],
-            "post-install": ["install yt-dlp /app/bin"],
+            "make-args": [
+                "yt-dlp",
+                "PYTHON=/usr/bin/python3"
+            ],
+            "post-install": [
+                "install yt-dlp /app/bin"
+            ],
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/yt-dlp/yt-dlp/releases/download/2023.07.06/yt-dlp.tar.gz",
-                    "sha512": "f9f276ccd01293d27a749575653449d73e13896c175a51f3687b2f6d1c6b97154f6c9fb2868f0c37a6e94cb692e223c7c595e741c5b2db82d2b9e1d0b2f8958d",
+                    "url": "https://github.com/yt-dlp/yt-dlp/releases/download/2024.03.10/yt-dlp.tar.gz",
+                    "sha512": "6bfe1aeab98f559a2b23ffa12b63b40974312709039313695f41c7beb16d29f21953c61ab633d567e42deeec72fb0932950ddeb4b821fffb93fbae9ae0cb30a2",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/yt-dlp/yt-dlp/tags",
@@ -79,9 +90,12 @@
             ]
         },
         {
-            "name" : "audok",
+            "name": "audok",
             "no-autogen": true,
-            "make-install-args": ["PREFIX=/app", "APPDIR=/app/audok"],
+            "make-install-args": [
+                "PREFIX=/app",
+                "APPDIR=/app/audok"
+            ],
             "sources": [
                 {
                     "type": "archive",
@@ -94,7 +108,7 @@
                 }
             ],
             "post-install": [
-                "install -Dm644 com.github.kalibari.audok.appdata.xml /app/share/appdata/com.github.kalibari.audok.appdata.xml"           
+                "install -Dm644 com.github.kalibari.audok.appdata.xml /app/share/appdata/com.github.kalibari.audok.appdata.xml"
             ]
         }
     ]
