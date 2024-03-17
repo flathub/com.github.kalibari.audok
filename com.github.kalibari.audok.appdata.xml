@@ -8,6 +8,9 @@
   <launchable type="desktop-id">com.github.kalibari.audok.desktop</launchable>
   <translation type="gettext">audok</translation>
   <content_rating type="oars-1.1" />
+  <developer id="tld.vendor">
+    <name>Kalibari</name>
+  </developer>
   <description>
     <p>
     Audok is a simple linux folder based music player with streamripper and converter support.
@@ -24,7 +27,7 @@
     </ul>
   </description>
   <releases>
-    <release date="2023-09-18" version="1.0.23">
+    <release date="2024-03-17" version="1.0.24">
       <description>
         <p>
         This release contains the following changes:
