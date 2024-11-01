@@ -2,7 +2,7 @@
     "id": "com.github.kalibari.audok",
     "runtime": "org.gnome.Platform",
     "sdk": "org.gnome.Sdk",
-    "runtime-version": "45",
+    "runtime-version" : "47",
     "command": "audok",
     "finish-args": [
         "--device=dri",
@@ -29,13 +29,11 @@
                 "--disable-libx265",
                 "--enable-libmp3lame"
             ],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://www.ffmpeg.org/releases/ffmpeg-6.1.1.tar.gz",
-                    "sha512": "4d6f1eea731fa0b16e3f6512e534f1df7b989b0a49bcb3aa5df8e7fffd65b610c6b49b2a9e215e36553b1e8c29f7d5d87d71be3b35df28e61d08e1890427f66c"
-                }
-            ],
+            "sources": [{
+              "type": "archive",
+              "url": "https://www.ffmpeg.org/releases/ffmpeg-7.1.tar.gz",
+              "sha512": "b0a82ca1a34fb9fa16ee4b7fa682d7c3fdcc68cd703c72487a2de434c714f2dede68d390e61dbb3669e435e271e4580d6bae00875d71a17ad39f43644c5fdd07"
+            }],
             "cleanup": [
                 "/share/ffmpeg/examples"
             ]
@@ -60,6 +58,12 @@
                     "commands": [
                         "cp -p /usr/share/automake-*/config.{sub,guess} .",
                         "cp -p /usr/share/automake-*/config.{sub,guess} libmad-0.15.1b/"
+                    ]
+                },
+                {
+                    "type": "patch",
+                    "paths": [
+                        "patches/buildfix.patch"
                     ]
                 }
             ]
@@ -99,8 +103,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/kalibari/audok/archive/refs/tags/v1.0.24.tar.gz",
-                    "sha512": "daede4c97c8d5bf27f138793b5efa6a64c90468049a21e53545786356c5ad278f07bad41408649cb02bb523f6825ce31b653cc82324e3f942aea2045fd66eeda"
+                    "url": "https://github.com/kalibari/audok/archive/refs/tags/v1.0.25.tar.gz",
+                    "sha512": "47f347019a5b2ae5cb1f953b06a75777e6c7803b6f44ae7665e36f059f0496f707569eedb67d8320a777eb9e076f8be17a1292aad16b144457575a75d34ad536"
                 },
                 {
                     "type": "file",
