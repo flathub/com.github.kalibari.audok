@@ -2,7 +2,7 @@
     "id": "com.github.kalibari.audok",
     "runtime": "org.gnome.Platform",
     "sdk": "org.gnome.Sdk",
-    "runtime-version" : "47",
+    "runtime-version": "47",
     "command": "audok",
     "finish-args": [
         "--device=dri",
@@ -82,8 +82,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/yt-dlp/yt-dlp/releases/download/2024.10.22/yt-dlp.tar.gz",
-                    "sha512": "486463af3487d3773fbeb975c741164131b802eac621eb1dc43f47704bcf2405bbb62b72d0fcc41a5b7e1651c81aec9fe284a42217bf06148d1870fbe362b0d7",
+                    "url": "https://github.com/yt-dlp/yt-dlp/releases/download/2024.11.04/yt-dlp.tar.gz",
+                    "sha512": "6af8973ca83cd622cfd61bbdd02fea6db34eb9b3986b9b2c402b7828d1c9da6c2931fc616f43be08be5332c6b2b1707a9ed21a14b71f639a5891a0ecbd1baccd",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/yt-dlp/yt-dlp/tags",
@@ -103,8 +103,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/kalibari/audok/archive/refs/tags/v1.0.25.tar.gz",
-                    "sha512": "47f347019a5b2ae5cb1f953b06a75777e6c7803b6f44ae7665e36f059f0496f707569eedb67d8320a777eb9e076f8be17a1292aad16b144457575a75d34ad536"
+                    "url": "https://github.com/kalibari/audok/archive/refs/tags/v1.0.27.tar.gz",
+                    "sha512": "c60902c8f034058f46280aa87afce7c9e17d57b6687d5e1164170b14809df3ab380abfe1e094ce9da7967604087becb675f16397ab23d8ac853175bada853823"
                 },
                 {
                     "type": "file",
