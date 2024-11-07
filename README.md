@@ -7,7 +7,7 @@ Audok is a simple linux music player with streamripper and converter support. Au
 
 Version
 ======
-Current Version is 1.0.25
+Current Version is 1.0.29
 
 
 Requirements
@@ -21,25 +21,13 @@ Requirements
 - gstreamer plugins base, gstreamer plugins bad
 
 
+
 Installation
-======
-wget https://github.com/kalibari/audok/archive/refs/heads/master.zip<br/>
-unzip master.zip<br/>
-cd audok-master<br/>
-sudo make install all PREFIX=/usr APPDIR=/opt/audok<br/>
-
-
-Deinstallation
-======
-sudo make uninstall PREFIX=/usr APPDIR=/opt/audok<br/>
-
-
-Installation via Flatpak
 ======
 sudo flatpak install flathub com.github.kalibari.audok<br/>
 
 
-Deinstallation via Flatpak
+Deinstallation
 ======
 sudo flatpak remove flathub com.github.kalibari.audok<br/>
 
