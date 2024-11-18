@@ -29,11 +29,13 @@
                 "--disable-libx265",
                 "--enable-libmp3lame"
             ],
-            "sources": [{
-              "type": "archive",
-              "url": "https://www.ffmpeg.org/releases/ffmpeg-7.1.tar.gz",
-              "sha512": "b0a82ca1a34fb9fa16ee4b7fa682d7c3fdcc68cd703c72487a2de434c714f2dede68d390e61dbb3669e435e271e4580d6bae00875d71a17ad39f43644c5fdd07"
-            }],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://www.ffmpeg.org/releases/ffmpeg-7.1.tar.gz",
+                    "sha512": "b0a82ca1a34fb9fa16ee4b7fa682d7c3fdcc68cd703c72487a2de434c714f2dede68d390e61dbb3669e435e271e4580d6bae00875d71a17ad39f43644c5fdd07"
+                }
+            ],
             "cleanup": [
                 "/share/ffmpeg/examples"
             ]
@@ -82,8 +84,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/yt-dlp/yt-dlp/releases/download/2024.11.04/yt-dlp.tar.gz",
-                    "sha512": "6af8973ca83cd622cfd61bbdd02fea6db34eb9b3986b9b2c402b7828d1c9da6c2931fc616f43be08be5332c6b2b1707a9ed21a14b71f639a5891a0ecbd1baccd",
+                    "url": "https://github.com/yt-dlp/yt-dlp/releases/download/2024.11.18/yt-dlp.tar.gz",
+                    "sha512": "ef44b44a098796a22104e19414e6b3ca51635a2bdad9fe7635ed4781a9cd1743f754eb202dd6fbcc98838abe8b2bd85e999a5c6cc1f084c3709effc72d4e8b45",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/yt-dlp/yt-dlp/tags",
