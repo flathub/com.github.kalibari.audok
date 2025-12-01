@@ -2,7 +2,7 @@
     "id": "com.github.kalibari.audok",
     "runtime": "org.gnome.Platform",
     "sdk": "org.gnome.Sdk",
-    "runtime-version": "47",
+    "runtime-version": "49",
     "command": "audok",
     "finish-args": [
         "--device=dri",
