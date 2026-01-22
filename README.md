@@ -24,12 +24,12 @@ Requirements
 
 Installation
 ======
-sudo flatpak install flathub com.github.kalibari.audok<br/>
+flatpak install flathub com.github.kalibari.audok<br/>
 
 
 Deinstallation
 ======
-sudo flatpak remove flathub com.github.kalibari.audok<br/>
+flatpak remove flathub com.github.kalibari.audok<br/>
 
 
 
